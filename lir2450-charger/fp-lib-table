@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name assets)(type KiCad)(uri /Users/rbaron/dev/lir2450-charger/assets)(options "")(descr ""))
+  (lib (name OSHW-logo)(type Legacy)(uri /Users/rbaron/dev/lir2450-charger/assets/OSHW-logo.mod)(options "")(descr ""))
+)
