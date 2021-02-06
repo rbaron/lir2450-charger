@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/rbaron/dev/lir2450-charger/lir2450-charger/lir2450-charger.sch)
-    (date "2021 January 26, Tuesday 17:31:19")
+    (date "2021 February 06, Saturday 10:26:23")
     (tool "Eeschema (5.1.2-1)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -80,7 +80,7 @@
       (tstamp 6011278E))
     (comp (ref BAT1)
       (value BS-7)
-      (footprint Battery:BatteryHolder_Keystone_3008_1x2450)
+      (footprint Footprints:BatteryHolder_Keystone_3008_1x2450)
       (datasheet http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf)
       (fields
         (field (name Category) "Battery Products")

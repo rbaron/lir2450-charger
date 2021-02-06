@@ -1,4 +1,4 @@
-16675749806622590
+16677362234195670
 assets
 battery-full
 
@@ -47480,6 +47480,13 @@ EMI Filter
 0
 19
 4
+Footprints
+BatteryHolder_Keystone_3008_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=786
+Keystone type 3008 coin cell retainer
+0
+3
+2
 Fuse
 Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
 Fuseholder ATO Blade littelfuse Pudenz 2 Pin

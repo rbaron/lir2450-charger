@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name assets)(type KiCad)(uri /Users/rbaron/dev/lir2450-charger/assets)(options "")(descr ""))
   (lib (name OSHW-logo)(type Legacy)(uri /Users/rbaron/dev/lir2450-charger/assets/OSHW-logo.mod)(options "")(descr ""))
+  (lib (name USB-C-Power-tester)(type KiCad)(uri /Users/rbaron/dev/lir2450-charger/lib/USB-C-Connectors/Kicad/Footprints/USB-C-Power-tester.pretty)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri /Users/rbaron/dev/lir2450-charger/lib/Battery/Footprints)(options "")(descr ""))
 )
