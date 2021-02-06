@@ -1,0 +1,14 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"BAT1";"BatteryHolder_Keystone_3008_1x2450";1;"BS-7";;;
+2;"G***";"OSHW-logo_silkscreen-back_4mm";1;"OSHW-logo_silkscreen-back_4mm";;;
+3;"G***,G***";"spark";2;"LOGO";;;
+4;"G***";"battery-half";1;"LOGO";;;
+5;"G***";"battery-full";1;"LOGO";;;
+6;"R5,R2";"R_0805_2012Metric";2;"220";;;
+7;"D2";"LED_0805_2012Metric";1;"Green LED";;;
+8;"P1";"TYPE-C-31-M-17";1;"USB_C_Plug_USB2.0";;;
+9;"U1";"SOT-23-5";1;"MCP73831-2-OT";;;
+10;"R4,R3";"R_0805_2012Metric";2;"5.1k";;;
+11;"R1";"R_0805_2012Metric";1;"22k";;;
+12;"D1";"LED_0805_2012Metric";1;"Red LED";;;
+13;"C2,C1";"C_0805_2012Metric";2;"4.7u";;;
