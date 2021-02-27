@@ -7,8 +7,11 @@ An open source USB C battery charger for [LIR2450 Li-Ion coin cells](https://www
 This repo hosts the [KiCad](https://kicad.org/) project for the charger, which contains the schematic and printed circuit board layout so you can make your own.
 
 # Tech Specs
-* It uses Microchip's [MCP73831](https://www.microchip.com/wwwproducts/en/en024903) as the charge management controller. It guarantees the appropriate charging curve for LiPo/Li-Ion cells (constant current/constant voltage - CC/CV)
-* The charge current is set to ~45mA via the 22k R1 resistor
+* It uses Microchip's [MCP73831](https://www.microchip.com/wwwproducts/en/en024903) as the charge management controller
+* 45mA charge current
+
+# Bill of Materials (BOM)
+The KiCad exported BOM is [here](kicad/lir2450-charger.csv).
 
 # 3D Render
 ![3D Render](./photos/3drender.png)
