@@ -297,7 +297,7 @@ U 1 1 60107539
 P 4600 2625
 F 0 "BAT1" H 4728 2678 60  0000 L CNN
 F 1 "BS-7" H 4728 2572 60  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3008_1x2450" H 4800 2825 60  0001 L CNN
+F 2 "Footprints:BatteryHolder_Keystone_3008_1x2450" H 4800 2825 60  0001 L CNN
 F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" V 4800 2925 60  0001 L CNN
 F 4 "BS-7-ND" H 4800 3025 60  0001 L CNN "Digi-Key_PN"
 F 5 "BS-7" H 4800 3125 60  0001 L CNN "MPN"
