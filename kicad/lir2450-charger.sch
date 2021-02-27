@@ -1,0 +1,374 @@
+EESchema Schematic File Version 4
+LIBS:lir2450-charger-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "lir2450-charger"
+Date "2021-01-25"
+Rev "1.0.0"
+Comp "rbaron.net"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Management:MCP73831-2-OT U1
+U 1 1 600FD00D
+P 2475 2300
+F 0 "U1" H 1350 2550 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 1625 2425 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2525 2050 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 2325 2250 50  0001 C CNN
+	1    2475 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 600FDC2B
+P 2450 1475
+F 0 "#PWR0101" H 2450 1325 50  0001 C CNN
+F 1 "+5V" H 2465 1648 50  0000 C CNN
+F 2 "" H 2450 1475 50  0001 C CNN
+F 3 "" H 2450 1475 50  0001 C CNN
+	1    2450 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 600FE100
+P 2475 2875
+F 0 "#PWR0102" H 2475 2625 50  0001 C CNN
+F 1 "GND" H 2480 2702 50  0000 C CNN
+F 2 "" H 2475 2875 50  0001 C CNN
+F 3 "" H 2475 2875 50  0001 C CNN
+	1    2475 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 1900 2475 2000
+Wire Wire Line
+	2000 2675 2000 2725
+Wire Wire Line
+	2000 2725 2475 2725
+Wire Wire Line
+	2475 2600 2475 2725
+Wire Wire Line
+	2475 2725 2475 2875
+Connection ~ 2475 2725
+Wire Wire Line
+	2075 2400 2000 2400
+Wire Wire Line
+	2000 2400 2000 2475
+$Comp
+L power:+5V #PWR0103
+U 1 1 60102B14
+P 3200 2475
+F 0 "#PWR0103" H 3200 2325 50  0001 C CNN
+F 1 "+5V" H 3215 2648 50  0000 C CNN
+F 2 "" H 3200 2475 50  0001 C CNN
+F 3 "" H 3200 2475 50  0001 C CNN
+	1    3200 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60104457
+P 3200 2700
+F 0 "D1" V 3239 2583 50  0000 R CNN
+F 1 "Red LED" V 3148 2583 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3200 2700 50  0001 C CNN
+F 3 "~" H 3200 2700 50  0001 C CNN
+	1    3200 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2850 3200 3000
+Wire Wire Line
+	3200 2475 3200 2550
+Wire Wire Line
+	3200 3200 3200 3300
+Wire Wire Line
+	3200 3300 2875 3300
+Wire Wire Line
+	2875 3300 2875 2400
+Wire Wire Line
+	2875 2200 2900 2200
+Wire Wire Line
+	2900 2200 2900 1775
+Wire Wire Line
+	2900 1775 3500 1775
+Wire Wire Line
+	3875 1775 3875 1875
+$Comp
+L Device:C_Small C1
+U 1 1 60109054
+P 2200 1625
+F 0 "C1" H 2292 1671 50  0000 L CNN
+F 1 "4.7u" H 2292 1580 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2200 1625 50  0001 C CNN
+F 3 "~" H 2200 1625 50  0001 C CNN
+	1    2200 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6010A9E1
+P 3675 2400
+F 0 "#PWR0104" H 3675 2150 50  0001 C CNN
+F 1 "GND" H 3680 2227 50  0000 C CNN
+F 2 "" H 3675 2400 50  0001 C CNN
+F 3 "" H 3675 2400 50  0001 C CNN
+	1    3675 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1975 3500 1775
+Connection ~ 3500 1775
+Wire Wire Line
+	3500 1775 3875 1775
+Wire Wire Line
+	3500 2175 3500 2325
+Wire Wire Line
+	3500 2325 3675 2325
+Wire Wire Line
+	3675 2325 3875 2325
+Wire Wire Line
+	3875 2325 3875 2275
+Connection ~ 3675 2325
+Wire Wire Line
+	3675 2325 3675 2400
+$Comp
+L power:GND #PWR0105
+U 1 1 6010D11F
+P 2200 1825
+F 0 "#PWR0105" H 2200 1575 50  0001 C CNN
+F 1 "GND" H 2205 1652 50  0000 C CNN
+F 2 "" H 2200 1825 50  0001 C CNN
+F 3 "" H 2200 1825 50  0001 C CNN
+	1    2200 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1725 2200 1825
+Wire Wire Line
+	2200 1525 2200 1475
+Wire Wire Line
+	2200 1475 2450 1475
+Wire Wire Line
+	2450 1475 2600 1475
+Wire Wire Line
+	2600 1475 2600 1900
+Wire Wire Line
+	2600 1900 2475 1900
+Connection ~ 2450 1475
+$Comp
+L Device:C_Small C2
+U 1 1 6010E363
+P 3500 2075
+F 0 "C2" H 3592 2121 50  0000 L CNN
+F 1 "4.7u" H 3592 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3500 2075 50  0001 C CNN
+F 3 "~" H 3500 2075 50  0001 C CNN
+	1    3500 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60117895
+P 5175 3525
+F 0 "#PWR0106" H 5175 3275 50  0001 C CNN
+F 1 "GND" H 5180 3352 50  0000 C CNN
+F 2 "" H 5175 3525 50  0001 C CNN
+F 3 "" H 5175 3525 50  0001 C CNN
+	1    5175 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 3425 5175 3525
+Wire Wire Line
+	5025 3425 5175 3425
+Connection ~ 5175 3425
+Wire Wire Line
+	5175 3425 5325 3425
+$Comp
+L power:+5V #PWR0107
+U 1 1 6012FD4F
+P 6025 1825
+F 0 "#PWR0107" H 6025 1675 50  0001 C CNN
+F 1 "+5V" H 6040 1998 50  0000 C CNN
+F 2 "" H 6025 1825 50  0001 C CNN
+F 3 "" H 6025 1825 50  0001 C CNN
+	1    6025 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 1925 6025 1925
+Wire Wire Line
+	6025 1925 6025 1825
+$Comp
+L Device:R_Small_US R3
+U 1 1 60130CC7
+P 6475 2425
+F 0 "R3" H 6225 2475 50  0000 L CNN
+F 1 "5.1k" H 6225 2400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6475 2425 50  0001 C CNN
+F 3 "~" H 6475 2425 50  0001 C CNN
+	1    6475 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 2225 6475 2225
+Wire Wire Line
+	6475 2225 6475 2325
+$Comp
+L Device:R_Small_US R4
+U 1 1 6013432F
+P 6850 2425
+F 0 "R4" H 6600 2475 50  0000 L CNN
+F 1 "5.1k" H 6600 2400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6850 2425 50  0001 C CNN
+F 3 "~" H 6850 2425 50  0001 C CNN
+	1    6850 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 2125 6850 2125
+Wire Wire Line
+	6850 2125 6850 2325
+$Comp
+L power:GND #PWR0108
+U 1 1 60135056
+P 6675 2625
+F 0 "#PWR0108" H 6675 2375 50  0001 C CNN
+F 1 "GND" H 6680 2452 50  0000 C CNN
+F 2 "" H 6675 2625 50  0001 C CNN
+F 3 "" H 6675 2625 50  0001 C CNN
+	1    6675 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 2525 6675 2525
+Wire Wire Line
+	6675 2625 6675 2525
+Connection ~ 6675 2525
+Wire Wire Line
+	6675 2525 6850 2525
+NoConn ~ 5925 2425
+NoConn ~ 5925 2625
+$Comp
+L Device:R_Small_US R2
+U 1 1 601058FD
+P 3200 3100
+F 0 "R2" H 3325 3175 50  0000 L CNN
+F 1 "1k" H 3325 3075 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3200 3100 50  0001 C CNN
+F 3 "~" H 3200 3100 50  0001 C CNN
+	1    3200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 60100627
+P 2000 2575
+F 0 "R1" H 1775 2625 50  0000 L CNN
+F 1 "22k" H 1775 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2000 2575 50  0001 C CNN
+F 3 "~" H 2000 2575 50  0001 C CNN
+	1    2000 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Plug_USB2.0 P1
+U 1 1 6011278E
+P 5325 2525
+F 0 "P1" H 5432 3392 50  0000 C CNN
+F 1 "USB_C_Plug_USB2.0" H 5432 3301 50  0000 C CNN
+F 2 "USB-C-Power-tester:TYPE-C-31-M-17" H 5475 2525 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5475 2525 50  0001 C CNN
+	1    5325 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Battery-Holders-Clips-Contacts:BS-7 BAT1
+U 1 1 60107539
+P 3875 2075
+F 0 "BAT1" H 4003 2128 60  0000 L CNN
+F 1 "BS-7" H 4003 2022 60  0000 L CNN
+F 2 "Footprints:BatteryHolder_Keystone_3008_1x2450" H 4075 2275 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" V 4075 2375 60  0001 L CNN
+F 4 "BS-7-ND" H 4075 2475 60  0001 L CNN "Digi-Key_PN"
+F 5 "BS-7" H 4075 2575 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 4075 2675 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 4075 2775 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" H 4075 2875 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 4075 2975 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER COIN 20MM PC PIN" H 4075 3075 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 4075 3175 60  0001 L CNN "Manufacturer"
+F 12 "Passive" H 4075 3275 60  0001 L CNN "Status"
+	1    3875 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 601054D3
+P 3200 3500
+F 0 "R5" H 3325 3575 50  0000 L CNN
+F 1 "1k" H 3325 3475 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3200 3500 50  0001 C CNN
+F 3 "~" H 3200 3500 50  0001 C CNN
+	1    3200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60105912
+P 3200 3850
+F 0 "D2" V 3239 3733 50  0000 R CNN
+F 1 "Green LED" V 3148 3733 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3200 3850 50  0001 C CNN
+F 3 "~" H 3200 3850 50  0001 C CNN
+	1    3200 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 3300 3200 3400
+Connection ~ 3200 3300
+Wire Wire Line
+	3200 3600 3200 3700
+$Comp
+L power:GND #PWR0109
+U 1 1 60107677
+P 3200 4100
+F 0 "#PWR0109" H 3200 3850 50  0001 C CNN
+F 1 "GND" H 3205 3927 50  0000 C CNN
+F 2 "" H 3200 4100 50  0001 C CNN
+F 3 "" H 3200 4100 50  0001 C CNN
+	1    3200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4000 3200 4100
+Wire Notes Line
+	975  4400 4500 4400
+Wire Notes Line
+	4500 4400 4500 975 
+Wire Notes Line
+	4500 975  975  975 
+Wire Notes Line
+	975  975  975  4400
+Wire Notes Line
+	4600 975  4600 4400
+Wire Notes Line
+	4600 4400 7250 4400
+Wire Notes Line
+	7250 4400 7250 975 
+Wire Notes Line
+	7250 975  4600 975 
+Text Notes 1050 1100 0    50   ~ 0
+Charge control
+Text Notes 4650 1100 0    50   ~ 0
+USB C connector
+$EndSCHEMATC

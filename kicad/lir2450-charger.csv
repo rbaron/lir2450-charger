@@ -1,9 +1,9 @@
 "Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"BAT1";"BatteryHolder_Keystone_3008_1x2450";1;"BS-7";;;
-2;"G***";"OSHW-logo_silkscreen-back_4mm";1;"OSHW-logo_silkscreen-back_4mm";;;
-3;"G***,G***";"spark";2;"LOGO";;;
-4;"G***";"battery-half";1;"LOGO";;;
-5;"G***";"battery-full";1;"LOGO";;;
+1;"REF**";"OSHW-Symbol_6.7x6mm_SilkScreen";1;"OSHW-Symbol_6.7x6mm_SilkScreen";;;
+2;"G***";"battery-full";1;"LOGO";;;
+3;"G***";"battery-half";1;"LOGO";;;
+4;"G***,G***";"spark";2;"LOGO";;;
+5;"BAT1";"BatteryHolder_Keystone_3008_1x2450";1;"BS-7";;;
 6;"R5,R2";"R_0805_2012Metric";2;"220";;;
 7;"D2";"LED_0805_2012Metric";1;"Green LED";;;
 8;"P1";"TYPE-C-31-M-17";1;"USB_C_Plug_USB2.0";;;
